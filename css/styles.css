@@ -2,5 +2,63 @@ h1 {
   font-family: "Archivo Black", sans-serif;
 }
 h2 {
+  font-family: "Archivo", sans-serif;
+}
+p {
   font-family: "Roboto", sans-serif;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bolder;
+  margin: 0;
+}
+.hero h1 {
+  font-size: 96px;
+  margin: 0;
+}
+.hero h2 {
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+.hero {
+  padding: 200px;
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(to right, #868f96 0%, #596164 100%),
+    url(/images/electricity.jpeg);
+  background-blend-mode: multiply;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.btn-branding {
+  font-family: "Archivo", sans-serif;
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-branding:hover {
+  background-color: #07d644;
+  box-shadow: 0px 15px 20px rgba(47, 234, 109, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.btn-branding:active {
+  transform: translateY(-1px);
 }
