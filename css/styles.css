@@ -37,7 +37,7 @@ h2 {
   background-blend-mode: multiply;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
 }
 
@@ -66,4 +66,20 @@ h2 {
 
 .btn-branding:active {
   transform: translateY(-1px);
+}
+
+.part-2 {
+  text-align: center;
+  margin: 120px auto;
+}
+.part-2 img {
+  width: 80px;
+}
+.part-2 h1,
+.part-2 h2 {
+  color: var(--branding-color);
+}
+
+.work-types {
+  margin-bottom: 80px;
 }
