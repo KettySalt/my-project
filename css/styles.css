@@ -1,21 +1,27 @@
+:root {
+  --branding-color: #07d644;
+  --heading-font-family-primary: "Archivo Black", sans-serif;
+  --heading-font-family-secondary: "Archivo", sans-serif;
+  --default-font-family: "Roboto", sans-serif;
+}
+body {
+  font-family: var(--default-font-family);
+}
+
 h1 {
-  font-family: "Archivo Black", sans-serif;
+  font-family: var(--heading-font-family-primary);
 }
 h2 {
-  font-family: "Archivo", sans-serif;
-}
-p {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--heading-font-family-secondary);
 }
 
 .hero p {
   font-size: 36px;
-  font-weight: bolder;
-  margin: 0;
+  margin: 0 auto;
 }
 .hero h1 {
   font-size: 96px;
-  margin: 0;
+  margin: 0 auto;
 }
 .hero h2 {
   font-size: 36px;
@@ -36,8 +42,7 @@ p {
 }
 
 .btn-branding {
-  font-family: "Archivo", sans-serif;
-  padding: 1.3em 3em;
+  padding: 15px 25px;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -53,7 +58,7 @@ p {
 }
 
 .btn-branding:hover {
-  background-color: #07d644;
+  background-color: var(--branding-color);
   box-shadow: 0px 15px 20px rgba(47, 234, 109, 0.4);
   color: #fff;
   transform: translateY(-7px);
