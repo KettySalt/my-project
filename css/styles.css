@@ -21,7 +21,6 @@ h2 {
 }
 .hero h1 {
   font-size: 96px;
-  margin: 0 auto;
 }
 .hero h2 {
   font-size: 36px;
@@ -29,7 +28,8 @@ h2 {
 }
 
 .hero {
-  padding: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   color: white;
   text-align: center;
   background-image: linear-gradient(to right, #868f96 0%, #596164 100%),
@@ -82,4 +82,18 @@ h2 {
 
 .work-types {
   margin-bottom: 80px;
+}
+@media (max-width: 900px) {
+  .hero h1 {
+    font-size: 72px;
+  }
+  .hero h2 {
+    font-size: 30px;
+  }
+  .part-2 {
+    margin: 80px auto;
+  }
+  .work-types {
+    margin-bottom: 30px;
+  }
 }
