@@ -28,7 +28,7 @@ h2 {
 }
 
 .hero {
-  padding-top: 200px;
+  padding-top: 250px;
   padding-bottom: 200px;
   color: white;
   text-align: center;
@@ -70,7 +70,7 @@ h2 {
 
 .part-2 {
   text-align: center;
-  margin: 120px auto;
+  margin: 200px auto;
 }
 .part-2 img {
   width: 80px;
@@ -96,4 +96,27 @@ h2 {
   .work-types {
     margin-bottom: 30px;
   }
+}
+
+.navbar {
+  --bs-navbar-padding-y: 2.2rem;
+  --bs-navbar-color: white;
+  --bs-navbar-brand-color: white;
+}
+
+.navbar-brand {
+  font-family: var(--heading-font-family-primary);
+  font-size: 24px;
+}
+.navbar-nav .nav-link.active {
+  color: var(--branding-color);
+  font-weight: bolder;
+}
+
+.navbar {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-scrolled {
+  background-color: rgb(215, 215, 215);
 }
