@@ -74,10 +74,16 @@ h2 {
 }
 .part-2 img {
   width: 80px;
+  opacity: 0.7;
 }
 .part-2 h1,
-.part-2 h2 {
+.part-2 h2,
+.about-block h2 {
   color: var(--branding-color);
+}
+
+.part-2 p {
+  opacity: 0.7;
 }
 
 .work-types {
@@ -102,12 +108,14 @@ h2 {
   --bs-navbar-padding-y: 2.2rem;
   --bs-navbar-color: white;
   --bs-navbar-brand-color: white;
+  --bs-nav-link-font-size: 18px;
 }
 
 .navbar-brand {
   font-family: var(--heading-font-family-primary);
   font-size: 24px;
 }
+
 .navbar-nav .nav-link.active {
   color: var(--branding-color);
   font-weight: bolder;
@@ -118,5 +126,45 @@ h2 {
 }
 
 .nav-scrolled {
-  background-color: rgb(215, 215, 215);
+  background-color: rgb(215, 215, 215, 0.8);
+}
+
+.about-block {
+  margin: 200px;
+}
+
+.about-block p,
+.benefits p {
+  line-height: 1.5;
+  font-size: 18px;
+  opacity: 0.7;
+}
+.about-block img {
+  width: 80%;
+}
+
+.benefits {
+  margin-top: 100px;
+}
+.benefits img {
+  width: 30%;
+}
+
+.benefits {
+  margin-bottom: 120px;
+}
+.contacts {
+  text-align: center;
+  margin-bottom: 110px;
+}
+.contacts a {
+  text-decoration: none;
+  color: var(--branding-color);
+  font-size: 24px;
+  font-family: var(--heading-font-family-secondary);
+}
+
+.contacts a:hover {
+  color: rgb(0, 0, 0, 0.7);
+  transition: all 0.3s ease 0s;
 }

@@ -30,7 +30,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/css/styles.css" />
-    <title>Gavryliuk Denys - electricity engineer</title>
+    <title>Denys Gavryliuk - electricity engineer</title>
   </head>
   <body>
     <nav
@@ -60,7 +60,7 @@
                 <a class="nav-link" href="/about.html">About me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact me</a>
+                <a class="nav-link" href="/about.html#contacts">Contact me</a>
               </li>
             </ul>
           </div>
@@ -73,7 +73,7 @@
       <h2>Electricity engineer based in Birmingham</h2>
       <a class="btn btn-branding mt-4">Contact me</a>
     </div>
-    <div class="part-2">
+    <div class="part-2" id="service-list">
       <div class="container">
         <div class="row work-types">
           <h1>Service list</h1>
@@ -146,17 +146,6 @@
       </div>
     </div>
 
-    <script>
-      let navEl = document.querySelector(".navbar");
-      window.addEventListener("scroll", () => {
-        console.log("Scrolling...");
-
-        if (window.scrollY >= 680) {
-          navEl.classList.add("nav-scrolled");
-        } else if (window.scrollY < 600) {
-          navEl.classList.remove("nav-scrolled");
-        }
-      });
-    </script>
+    <script src="/src/index.js"></script>
   </body>
 </html>
