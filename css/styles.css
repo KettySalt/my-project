@@ -106,8 +106,8 @@ h2 {
 
 .navbar {
   --bs-navbar-padding-y: 2.2rem;
-  --bs-navbar-color: white;
-  --bs-navbar-brand-color: white;
+  /* --bs-navbar-color: white;
+  --bs-navbar-brand-color: white; */
   --bs-nav-link-font-size: 18px;
 }
 
