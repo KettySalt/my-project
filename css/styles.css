@@ -89,25 +89,9 @@ h2 {
 .work-types {
   margin-bottom: 80px;
 }
-@media (max-width: 900px) {
-  .hero h1 {
-    font-size: 72px;
-  }
-  .hero h2 {
-    font-size: 30px;
-  }
-  .part-2 {
-    margin: 80px auto;
-  }
-  .work-types {
-    margin-bottom: 30px;
-  }
-}
 
 .navbar {
-  --bs-navbar-padding-y: 2.2rem;
-  /* --bs-navbar-color: white;
-  --bs-navbar-brand-color: white; */
+  --bs-navbar-padding-y: 1.8rem;
   --bs-nav-link-font-size: 18px;
 }
 
@@ -121,16 +105,13 @@ h2 {
   font-weight: bolder;
 }
 
-.navbar {
-  transition: all 0.3s ease 0s;
-}
-
 .nav-scrolled {
   background-color: rgb(215, 215, 215, 0.8);
 }
 
 .about-block {
-  margin: 200px;
+  margin-top: 200px;
+  margin-bottom: 130px;
 }
 
 .about-block p,
@@ -167,4 +148,40 @@ h2 {
 .contacts a:hover {
   color: rgb(0, 0, 0, 0.7);
   transition: all 0.3s ease 0s;
+}
+
+@media (max-width: 1000px) {
+  .about-block p,
+  .benefits p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 900px) {
+  .hero h1 {
+    font-size: 72px;
+  }
+  .hero h2 {
+    font-size: 30px;
+  }
+  .part-2 {
+    margin: 80px auto;
+  }
+  .work-types {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 680px) {
+  .hero h1 {
+    font-size: 56px;
+  }
+  .hero h2 {
+    font-size: 24px;
+  }
+  .hero p {
+    font-size: 32px;
+  }
+  .navbar-brand {
+    font-size: 20px;
+  }
 }
