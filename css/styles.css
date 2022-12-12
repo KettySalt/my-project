@@ -59,7 +59,7 @@ h2 {
 
 .btn-branding:hover {
   background-color: var(--branding-color);
-  box-shadow: 0px 15px 20px rgba(47, 234, 109, 0.4);
+  box-shadow: 0px 10px 15px rgba(64, 253, 127, 0.2);
   color: #fff;
   transform: translateY(-7px);
 }
@@ -91,8 +91,22 @@ h2 {
 }
 
 .navbar {
-  --bs-navbar-padding-y: 1.8rem;
-  --bs-nav-link-font-size: 18px;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+  transition: all 0.3s ease 0s;
+}
+
+.navbar-fontstyle {
+  background-color: #565656;
+  color: transparent;
+  text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.6);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+}
+.navbar-fontstyle:hover {
+  background-color: #767575;
+  color: transparent;
 }
 
 .navbar-brand {
@@ -100,9 +114,13 @@ h2 {
   font-size: 24px;
 }
 
+.nav-link {
+  font-family: var(--heading-font-family-secondary);
+  font-size: 18px;
+}
 .navbar-nav .nav-link.active {
   color: var(--branding-color);
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .nav-scrolled {
@@ -128,7 +146,7 @@ h2 {
   margin-top: 100px;
 }
 .benefits img {
-  width: 30%;
+  width: 80px;
 }
 
 .benefits {
@@ -155,6 +173,15 @@ h2 {
   .benefits p {
     font-size: 12px;
   }
+  .benefits img {
+    width: 55px;
+  }
+  .benefits {
+    margin-bottom: 70px;
+  }
+  .contacts a {
+    font-size: 18px;
+  }
 }
 @media (max-width: 900px) {
   .hero h1 {
@@ -168,6 +195,19 @@ h2 {
   }
   .work-types {
     margin-bottom: 30px;
+  }
+  .about-block {
+    margin-top: 130px;
+    margin-bottom: 70px;
+  }
+
+  .navbar {
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+  }
+
+  .benefits {
+    margin-bottom: 40px;
   }
 }
 
