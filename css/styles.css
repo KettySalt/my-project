@@ -78,7 +78,7 @@ h2 {
 }
 .part-2 h1,
 .part-2 h2,
-.about-block h2 {
+.content-container h2 {
   color: var(--branding-color);
 }
 
@@ -127,18 +127,18 @@ h2 {
   background-color: rgb(215, 215, 215, 0.8);
 }
 
-.about-block {
+.content-container {
   margin-top: 200px;
   margin-bottom: 130px;
 }
 
-.about-block p,
+.content-container p,
 .benefits p {
   line-height: 1.5;
   font-size: 18px;
   opacity: 0.7;
 }
-.about-block img {
+.content-container img {
   width: 80%;
 }
 
@@ -169,10 +169,6 @@ h2 {
 }
 
 @media (max-width: 1000px) {
-  .about-block p,
-  .benefits p {
-    font-size: 12px;
-  }
   .benefits img {
     width: 55px;
   }
@@ -196,7 +192,7 @@ h2 {
   .work-types {
     margin-bottom: 30px;
   }
-  .about-block {
+  .content-container {
     margin-top: 130px;
     margin-bottom: 60px;
   }
