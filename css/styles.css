@@ -152,20 +152,38 @@ h2 {
 .benefits {
   margin-bottom: 120px;
 }
-.contacts {
-  text-align: center;
-  margin-bottom: 110px;
+footer {
+  transition: all 0.3s ease 0s;
+  background-color: var(--branding-color);
+  margin: 60px auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-.contacts a {
-  text-decoration: none;
-  color: var(--branding-color);
+
+.social-links {
+  font-size: 36px;
+  text-align: center;
+}
+.social-links a {
+  color: rgb(0, 0, 0, 0.7);
+  margin: 0 20px;
+}
+.social-links a:hover {
+  color: rgb(33, 37, 41, 0.7);
+}
+.email-link {
+  text-align: center;
+}
+.email-link a {
+  text-align: center;
   font-size: 24px;
+  text-decoration: none;
+  color: rgb(33, 37, 41);
   font-family: var(--heading-font-family-secondary);
 }
 
-.contacts a:hover {
-  color: rgb(0, 0, 0, 0.7);
-  transition: all 0.3s ease 0s;
+.email-link a:hover {
+  color: rgb(33, 37, 41, 0.7);
 }
 
 @media (max-width: 1000px) {
@@ -221,6 +239,13 @@ h2 {
   .navbar-brand {
     font-size: 20px;
   }
+  .social-links {
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  .email-link a {
+    font-size: 18px;
+  }
 }
 .contact-page a {
   font-family: var(--heading-font-family-secondary);
@@ -233,15 +258,3 @@ h2 {
   opacity: 1;
   transition: all 0.3s ease 0s;
 }
-
-/* .contacts a {
-  text-decoration: none;
-  color: var(--branding-color);
-  font-size: 24px;
-  font-family: var(--heading-font-family-secondary);
-}
-
-.contacts a:hover {
-  color: rgb(0, 0, 0, 0.7);
-  transition: all 0.3s ease 0s;
-} */
