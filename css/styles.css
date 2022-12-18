@@ -129,7 +129,7 @@ h2 {
 
 .content-container {
   margin-top: 200px;
-  margin-bottom: 130px;
+  margin-bottom: 100px;
 }
 
 .content-container p,
@@ -155,7 +155,7 @@ h2 {
 footer {
   transition: all 0.3s ease 0s;
   background-color: var(--branding-color);
-  margin: 60px auto;
+  margin-bottom: 60px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -186,7 +186,16 @@ footer {
   color: rgb(33, 37, 41, 0.7);
 }
 
+@media (max-width: 1200px) {
+  .part-2 h2 {
+    font-size: 24px;
+  }
+}
+
 @media (max-width: 1000px) {
+  .part-2 h2 {
+    font-size: 20px;
+  }
   .benefits img {
     width: 55px;
   }
@@ -212,7 +221,7 @@ footer {
   }
   .content-container {
     margin-top: 130px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 
   .navbar {
