@@ -257,6 +257,9 @@ footer {
   .contact-page p {
     font-size: 14px;
   }
+  .email-link a {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 680px) {
@@ -275,8 +278,5 @@ footer {
   .social-links {
     font-size: 24px;
     margin: 0 10px;
-  }
-  .email-link a {
-    font-size: 18px;
   }
 }
