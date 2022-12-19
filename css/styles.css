@@ -159,16 +159,18 @@ footer {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-
+footer p {
+  font-size: 14px;
+}
 .social-links {
   font-size: 36px;
   text-align: center;
 }
-.social-links a {
-  color: rgb(0, 0, 0, 0.7);
+.social-links i {
+  color: rgb(33, 37, 41);
   margin: 0 20px;
 }
-.social-links a:hover {
+.social-links i:hover {
   color: rgb(33, 37, 41, 0.7);
 }
 .email-link {
@@ -278,5 +280,8 @@ footer {
   .social-links {
     font-size: 24px;
     margin: 0 10px;
+  }
+  footer p {
+    font-size: 12px;
   }
 }
